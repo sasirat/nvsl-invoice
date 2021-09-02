@@ -11,7 +11,7 @@ const Invoice = () => {
       </div>
       <div>
         <StatusMenu />
-        <InvoiceBody total="25000" />
+        <InvoiceBody />
       </div>
     </div >
   )
