@@ -1,0 +1,16 @@
+.bg {
+  width: 20rem;
+  background: linear-gradient(180deg, rgba(36,90,176,1) 0%, rgba(206,219,233,1) 100%);
+}
+
+.text {
+  @apply p-4;
+}
+
+.select::before,
+.select:after {
+  width: 20px;
+  height: 20px;
+  right: 0;
+  position: absolute;
+}
