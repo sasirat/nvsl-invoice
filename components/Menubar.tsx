@@ -1,4 +1,4 @@
-import stylesMenubar from '../styles/MenuBar.module.css'
+import stylesMenubar from '../styles/Menubar.module.css'
 import styleWrapper from '../styles/Wrapper.module.css'
 
 const MenuBar = () => {
