@@ -54,7 +54,7 @@ const InvoiceBody: FC = () => {
         <div className="bg-gray-300 rounded-md px-2 py-1 mx-2">10</div>
         <p className="mt-1">Entries</p>
       </div>
-      <div className="mt-4">
+      <div className="mt-4 overflow-auto h-96">
         <table className="w-full text-xs">
           <thead>
             <tr className={`${styles.table_header} ${styles.table}`}>
