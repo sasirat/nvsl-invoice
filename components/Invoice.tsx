@@ -1,5 +1,6 @@
 import styles from '../styles/Invoice.module.css'
 import StatusMenu from '../components/StatusMenu'
+import InvoiceBody from '../components/InvoiceBody'
 
 const Invoice = () => {
   return (
@@ -10,6 +11,7 @@ const Invoice = () => {
       </div>
       <div>
         <StatusMenu />
+        <InvoiceBody total="25000" />
       </div>
     </div >
   )
