@@ -12,7 +12,7 @@ const InvoiceBody: FC = () => {
   useEffect(() => {
     setLoading(true);
 
-    let api = 'http://localhost:3000/api/invoices'
+    let api = '/api/invoices'
 
     if (router.query.status) {
       api = `${api}?status=${router.query.status}`
