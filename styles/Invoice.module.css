@@ -1,0 +1,19 @@
+.text {
+  color: #7F9EBF;
+}
+
+.table_header {
+  background-color: #ACCEF8;
+}
+
+.table tr:nth-child(even) {
+  background: #ECF4FD;
+}
+
+.table td {
+  padding: 1rem 1rem;
+}
+
+.bg_button{
+  background: #FBFCFF;
+}
